@@ -4,9 +4,12 @@ import requests as req
 from twilio.twiml.messaging_response import MessagingResponse
 import openai
 
+key = 'sk-1234567890xx...wehfb'
 path = "D:\Python Projects\Open AI\OPENAI_API_KEY.txt"
-openai.api_key_path = path
+
+#openai.api_key = key
 #openai.api_key = os.getenv("OPENAI_API_KEY")
+#openai.api_key_path = path
 
 app = Flask(__name__)
 
